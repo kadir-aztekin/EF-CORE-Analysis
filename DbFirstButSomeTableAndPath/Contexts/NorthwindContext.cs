@@ -8,7 +8,7 @@ namespace DbFirstButSomeTableAndPath.Contexts
 {
     public partial class NorthwindContext : DbContext
     {
-        public NorthwindContext()
+        public NorthwindContext() 
         {
         }
 
