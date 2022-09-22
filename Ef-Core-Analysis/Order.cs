@@ -29,5 +29,6 @@ namespace Ef_Core_Analysis
         public virtual Employee Employee { get; set; }
         public virtual Shipper ShipViaNavigation { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+
     }
 }
