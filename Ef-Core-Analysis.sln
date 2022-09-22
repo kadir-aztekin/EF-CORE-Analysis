@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ef-Core-Analysis", "Ef-Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirst_2", "DbFirst_2\DbFirst_2.csproj", "{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirstButSomeTableAndPath", "DbFirstButSomeTableAndPath\DbFirstButSomeTableAndPath.csproj", "{0487C838-F91E-4C04-959E-A51DA75112F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0487C838-F91E-4C04-959E-A51DA75112F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0487C838-F91E-4C04-959E-A51DA75112F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0487C838-F91E-4C04-959E-A51DA75112F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0487C838-F91E-4C04-959E-A51DA75112F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
