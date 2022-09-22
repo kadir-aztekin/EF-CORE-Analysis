@@ -9,3 +9,4 @@ namespace Ef_Core_Analysis
         public string ProductName { get; set; }
     }
 }
+ 
