@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 //MİGRATİON CODE 
 //ECommerceDbContext context = new();
 //context.Database.Migrate();
-
+Console.WriteLine();
 public class ECommerceDbContext : DbContext
 {
     public DbSet<Product> Products { get; set; }
