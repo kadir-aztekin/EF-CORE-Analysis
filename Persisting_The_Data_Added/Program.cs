@@ -8,11 +8,8 @@ urun.Fiyat = 100;
 urun.UrunAdi = "A";
 Urun urun1 = new Urun();
 urun1.Fiyat = 100;
-urun1.UrunAdi = "B";
-Urun urun3 = new Urun();
-urun3.Fiyat = 100;
-urun3.UrunAdi = "C";
-await context.AddRangeAsync(urun, urun1, urun3);
+
+await context.AddRangeAsync(urun, urun1);
 //await context.AddAsync(urun);
 await context.SaveChangesAsync();
 public class ETicaretContext : DbContext

@@ -5,15 +5,17 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ef-Core-Analysis", "Ef-Core-Analysis\Ef-Core-Analysis.csproj", "{94A147DF-5DCD-4A54-BF3E-31A33A855D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirst_2", "DbFirst_2\DbFirst_2.csproj", "{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbFirst_2", "DbFirst_2\DbFirst_2.csproj", "{C3FF8F4C-0F8A-482D-9DDA-9EF7E3E5D372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirstButSomeTableAndPath", "DbFirstButSomeTableAndPath\DbFirstButSomeTableAndPath.csproj", "{0487C838-F91E-4C04-959E-A51DA75112F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbFirstButSomeTableAndPath", "DbFirstButSomeTableAndPath\DbFirstButSomeTableAndPath.csproj", "{0487C838-F91E-4C04-959E-A51DA75112F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{B7620F89-2CF3-436F-B375-E4030431144E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{B7620F89-2CF3-436F-B375-E4030431144E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persisting_The_Data_Update", "Persisting_The_Data_Update\Persisting_The_Data_Update.csproj", "{E634C3A7-E549-4472-81E3-4831D8A99792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persisting_The_Data_Update", "Persisting_The_Data_Update\Persisting_The_Data_Update.csproj", "{E634C3A7-E549-4472-81E3-4831D8A99792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persisting_The_Data_Added", "Persisting_The_Data_Added\Persisting_The_Data_Added.csproj", "{DDFE5733-CB2F-4A4A-8F02-E15AA983022A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persisting_The_Data_Added", "Persisting_The_Data_Added\Persisting_The_Data_Added.csproj", "{DDFE5733-CB2F-4A4A-8F02-E15AA983022A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying", "Querying\Querying.csproj", "{0D7C8E82-E870-4992-8B40-7CCADD6F74C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DDFE5733-CB2F-4A4A-8F02-E15AA983022A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFE5733-CB2F-4A4A-8F02-E15AA983022A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFE5733-CB2F-4A4A-8F02-E15AA983022A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7C8E82-E870-4992-8B40-7CCADD6F74C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7C8E82-E870-4992-8B40-7CCADD6F74C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7C8E82-E870-4992-8B40-7CCADD6F74C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7C8E82-E870-4992-8B40-7CCADD6F74C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
