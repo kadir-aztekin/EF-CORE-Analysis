@@ -56,7 +56,7 @@ static async Task WHEREORDERBYTHENBY(ETicaretContext context)
     //FİND FONK WHERE,LİNQ KULLANMADAN DİREK PİRAMERY KEY ALANINDA SORGU YAPAR
 }
 
-await PrivateMethods(context);
+//await PrivateMethods(context);
 
 static async Task PrivateMethods(ETicaretContext context)
 {
@@ -89,7 +89,13 @@ static async Task PrivateMethods(ETicaretContext context)
 
     var ortalama = await context.Urunler.AverageAsync(u => u.Fiyat);
     Console.WriteLine(ortalama);
+
+
+    var datas = context.Urunler.GroupBy(ı => ı.Fiyat).Select(group=>new { Count=group.Count(),Fiyat=group.Key}).ToList();
+    Console.WriteLine(datas.Count);
 }
+
+
 
 
 
