@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Many_to_Many_Relationship",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saving_Related_Data", "Saving_Related_Data\Saving_Related_Data.csproj", "{CBFE9934-010E-4001-8917-50B936D9E05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update_Related_Data", "Update_Related_Data\Update_Related_Data.csproj", "{02F6FD7B-0C0B-4885-BD85-7FC879EA7705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backing_Fields", "Backing_Fields\Backing_Fields.csproj", "{2EE2E868-F0C2-4A62-B44E-1BE0A3858B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,10 +89,10 @@ Global
 		{CBFE9934-010E-4001-8917-50B936D9E05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBFE9934-010E-4001-8917-50B936D9E05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBFE9934-010E-4001-8917-50B936D9E05B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02F6FD7B-0C0B-4885-BD85-7FC879EA7705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02F6FD7B-0C0B-4885-BD85-7FC879EA7705}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02F6FD7B-0C0B-4885-BD85-7FC879EA7705}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02F6FD7B-0C0B-4885-BD85-7FC879EA7705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE2E868-F0C2-4A62-B44E-1BE0A3858B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE2E868-F0C2-4A62-B44E-1BE0A3858B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE2E868-F0C2-4A62-B44E-1BE0A3858B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE2E868-F0C2-4A62-B44E-1BE0A3858B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
